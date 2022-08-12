@@ -1,7 +1,9 @@
 
-- 👋 Hi, I’m Dima Timofiev 
-- 👀 PHP / Symfony 
-- Linkedin: www.linkedin.com/in/дима-тимофеев-740902246 
+# 👋 Hi, I'm Dima Timofiev!
+##  👀 learning PHP / Symfony 
+### 🌍 from   Ukraine
+--------
+#### Linkedin: www.linkedin.com/in/дима-тимофеев-740902246 
 
 
 
