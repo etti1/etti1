@@ -8,6 +8,8 @@ use App\Entity\User;
 use App\Manager\UserManager;
 use App\Repository\UserRepository;
 use App\Service\UserCategoryService;
+use OpenApi\Attributes\Get;
+use OpenApi\Attributes\Post;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -19,7 +21,7 @@ use Symfony\Component\Serializer\Normalizer\NormalizableInterface;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
-use Symfony\Component\Serializer\SerializerInterface;
+use JMS\Serializer\SerializerInterface;
 
 class GetUsersController extends AbstractController
 {

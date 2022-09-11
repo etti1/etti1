@@ -34,4 +34,10 @@ class LoginController extends AbstractController
          return new Response('Привет ' . $this->getUser()->getName() .' ' . $this->getUser()->getSurname()   . '. Ты авторизовался.' );
     }
 
+    #[Route('/logout', name: 'logout')]
+    public function logoutUser()
+    {
+        throw new \Exception('Don\'t forget to activate logout in security.yaml');
+    }
+
 }

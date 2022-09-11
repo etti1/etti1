@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class DeleteUserController extends AbstractController
 {
     #[Route('/api/v1/deleteUser/{id}', name: 'delete_user', methods: 'DELETE')]
-    public function deleteUser( $id, ManagerRegistry $doctrine, UserManager $userManager): Response
+    public function deleteUser( $id,  ManagerRegistry $doctrine, UserManager $userManager): Response
     {
         $user = $doctrine->getRepository(User::class)->find($id);
 

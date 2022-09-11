@@ -12,10 +12,12 @@
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.12",
         "friendsofsymfony/rest-bundle": "^3.3",
+        "jms/serializer": "^3.18",
         "jms/serializer-bundle": "^4.0",
         "nelmio/api-doc-bundle": "^4.9",
         "symfony/console": "6.0.*",
         "symfony/dotenv": "6.0.*",
+        "symfony/event-dispatcher": "6.0.*",
         "symfony/flex": "^2",
         "symfony/form": "6.0.*",
         "symfony/framework-bundle": "6.0.*",
@@ -27,7 +29,9 @@
         "symfony/twig-bundle": "6.0.*",
         "symfony/validator": "6.0.*",
         "symfony/yaml": "6.0.*",
-        "symfonycasts/reset-password-bundle": "^1.14"
+        "symfonycasts/reset-password-bundle": "^1.14",
+        "twig/extra-bundle": "^2.12|^3.0",
+        "twig/twig": "^2.12|^3.0"
     },
     "config": {
         "allow-plugins": {
@@ -81,6 +85,8 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.45"
+        "symfony/maker-bundle": "^1.45",
+        "symfony/stopwatch": "6.0.*",
+        "symfony/web-profiler-bundle": "6.0.*"
     }
 }

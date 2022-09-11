@@ -46,7 +46,7 @@ class UserRepository extends ServiceEntityRepository
     public function findName()
     {
          $qb =  $this->createQueryBuilder('u')
-             ->select('u.name', 'u.surname', 'u.email');
+             ->select('u.name',  'u.surname', 'u.email');
 
          $q =  $qb->getQuery();
 
